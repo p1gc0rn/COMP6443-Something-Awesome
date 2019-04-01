@@ -3,7 +3,9 @@ This challenge has **login form**, so the first thing came up in my mind was SQL
 ![](img/1.png)
 2. The injection `1' or '1'='1';` returned information and the highlight is in the flag part is which **'N/A'** .Hence it can be guessed that I could find flag through dumping the table. 
 
-![](img/2.png)
+<p align="center"> 
+<img src="img/2.png">
+</p>
 
 The next step is finding information of that tables and its contents. 
 - ``UNION SELECT`` helps figure out how many columns there are in the current table.  The syntax of the SQL statement is ``1' UNION SELECT 1;`` to check whether the table has one columns. The result shows the warning indicating that the column number is not 1. 
