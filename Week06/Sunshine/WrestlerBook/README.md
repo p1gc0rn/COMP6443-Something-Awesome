@@ -1,5 +1,6 @@
 This challenge has **login form**, so the first thing came up in my mind was SQL Injection at login form.  After making some checking and observation, I came up with two things: 
 1. The password field is vulnerable to SQLi when I put ``1'`` into the field. The website returns SQLite3 error.
+![](img/1.png)
 2. The injection `1' or '1'='1';` returned information and the highlight is in the flag part is which 'N/A' .Hence it can be guessed that I could find flag through dumping the table. 
 
 The next step is finding information of that tables and its contents. 
