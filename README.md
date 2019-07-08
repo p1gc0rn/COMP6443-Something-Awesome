@@ -1,3 +1,4 @@
+# Update: It was a big pity that I couldnt finish this!
 ## Executive Summary 
 - ***Introduction***:  My project for 6443's Something Awesome is playing as many CTFs as I can. I will find CTFs via CTFTime each week and solve challenges in each CTFs. The reasons why I chose playing CTFs as 6443's Something Awesome are because I enjoy playing CTFs and they help improving my security knowledge and skills.
 -   ***Initial goals***: 
